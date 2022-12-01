@@ -48,7 +48,7 @@ ItemPage {
                 width: 140
                 height: 72
                 sourceSize: Qt.size(width, height)
-                source: "qrc:/images/logo.svg"
+                source: 
             }
 
             Item {
@@ -58,7 +58,7 @@ ItemPage {
             Label {
                 Layout.alignment: Qt.AlignTop | Qt.AlignHCenter
                 text: "<b>Openfish</b>"
-                visible: !about.isCutefishOS
+                visible: !about.isCyberOS-Reborn
                 font.pointSize: 22
                 color: "#3385FF"
                 leftPadding: FishUI.Units.largeSpacing * 2
